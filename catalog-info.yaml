@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-gcb4"
+  annotations:
+    google.com/cloudbuild-project-slug: 'intern-infra'
+    google.com/cloudbuild-repo-name: rey-gdp-intern/test-gcb4
+spec:
+  type: service
+  owner: group:sre
+  lifecycle: experimental
